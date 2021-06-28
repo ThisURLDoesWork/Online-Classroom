@@ -1,0 +1,131 @@
+
+    body {
+        background-color: #E6E6FA;
+        color: white;
+    }
+    h1 {
+    color: rgb(0, 255, 179);
+  }
+
+    .container-final {
+        text-align: center;
+        text-shadow: 2px 2px 5px rgb(0, 238, 255);
+        font-size: 25px;
+    }
+    .background{
+    overflow-y: scroll;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+background-image: url('https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg');
+
+        }
+.container{
+  text-align: center;
+}
+.menu{
+  text-align: center;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  background-color: #E4F9F5;
+}
+
+ .top{
+   background-color: #E4F9F5;
+   position: relative;
+   padding-top: 80px;
+
+ }
+ h1{
+   font-size: 2em;
+   margin: 50px auto 0 auto;
+   line-height: 2;
+   color: #66BFBF
+
+ }
+ h2{
+   font-size: 2.5rem;
+   color: #66BFBF;
+   padding-bottom: 10px;
+ }
+ h3{
+   color: #11999E;
+ }
+ .bottomcloud{
+   position: absolute;
+   left: 250px;
+   bottom: 300px;
+   opacity: 1;
+
+ }
+ hr{
+   border: dotted #11999E;
+   border-bottom: none;
+   width: 5%;
+   margin: 100px auto;;
+ }
+ .intro{
+   width: 30%;
+   margin: auto;
+ }
+ .topcloud{
+ position: absolute;
+ right: 300px;
+ top: 40px;
+ padding: 10px 0px 20px 0px;
+ opacity: 93%;
+ }
+ /* .button {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.button:active {
+	position:relative;
+	top:1px;
+} */
+.button {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3033cb;
+  background-image: -webkit-linear-gradient(top, #3033cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #3033cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #3033cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #3033cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #3033cb, #2bc4ad);
+  text-decoration: none;
+}

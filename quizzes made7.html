@@ -1,0 +1,120 @@
+<html>
+<head>
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #015;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 76px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.glow-on-hover {
+    width: 320px;
+    height: 80px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="file:///F:/SEM-3/PBL-1/quizzes%20made2.html">Quizzes made</a></li>
+  <li><a href="put your link here.">Select class</a></li>
+  <li><a href="put your link here.">Create Class</a></li>
+  <li><a href="file:///F:/SEM-3/PBL-1/assignment%20made3.html">Assignments made</a></li>
+</ul>
+
+<button class="glow-on-hover" type="button">QUIZ NO. 1</button> <br>
+<button class="glow-on-hover" type="button">QUIZ NO. 2</button> <br>
+<button class="glow-on-hover" type="button">QUIZ NO. 3</button> <br>
+<button class="glow-on-hover" type="button">QUIZ NO. 4</button> <br>
+
+</body>
+</html>
